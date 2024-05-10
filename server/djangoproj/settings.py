@@ -30,10 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS =\
   ['localhost',
-   'https://liudi-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy' \
+   'https://liudi-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy'
    '.cognitiveclass.ai']
 CSRF_TRUSTED_ORIGINS =\
-  ['https://liudi-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy' \
+  ['https://liudi-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy'
    '.cognitiveclass.ai']
 
 
@@ -100,7 +100,7 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME':
-        'django.contrib.auth.password_validation.UserAttributeSimilarity' \
+        'django.contrib.auth.password_validation.UserAttributeSimilarity'
         'Validator',
     },
     {
